@@ -14,3 +14,4 @@ To run this API,
 
 
 **_Docker_Image.tar_**: available in the shared google folder: https://drive.google.com/file/d/1j0k22Gf8J9oyiz8uW1EuaxBvDg0OqTpP/view?usp=sharing
+**_CI/CD pipeline _**: I am working on a workflow that can build a docker image, but I am not able to finish it for the time being. 
