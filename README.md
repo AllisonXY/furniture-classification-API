@@ -1,7 +1,7 @@
 # Image Classification API
-classification_model.ipynb : A deep learning CNN model for image classification. The model is developed using TensorFlow, trained on the provided dataset and saved as cnn_model folder under the API project folder. 
+**_classification_model.ipynb_** : A deep learning CNN model for image classification. The model is developed using TensorFlow, trained on the provided dataset and saved as cnn_model folder under the API project folder. 
 
-Image Classification API : An API that accepts an image input and returns the predicted label as output. The API is developed using FastAPI framework and Uvicorn server.
+**_Image Classification API_** : An API that accepts an image input and returns the predicted label as output. The API is developed using FastAPI framework and Uvicorn server.
 To run this API, 
 1) Open the terminal window under this project, and run the command: pip install fastapi uvicorn
 2) The command to run the app is: uvicorn src.main:app 
@@ -12,4 +12,5 @@ To run this API,
 ![FastAPI - Swagger UI - Google Chrome 2_23_2023 7_08_35 PM](https://user-images.githubusercontent.com/71278811/221062376-e2d8d97b-9fc1-4283-91d8-ef55fc02e840.png)
 
 
-Docker_Image.tar: available in the shared google folder: https://drive.google.com/file/d/1j0k22Gf8J9oyiz8uW1EuaxBvDg0OqTpP/view?usp=sharing
+
+**_Docker_Image.tar_**: available in the shared google folder: https://drive.google.com/file/d/1j0k22Gf8J9oyiz8uW1EuaxBvDg0OqTpP/view?usp=sharing
