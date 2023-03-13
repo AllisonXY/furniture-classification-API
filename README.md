@@ -1,7 +1,10 @@
-# Image Classification API
-**_classification_model.ipynb_** : A deep learning CNN model for image classification. The model is developed using TensorFlow, trained on the provided dataset and saved as cnn_model folder under the API project folder. 
+# Furniture Classification API
+This repository contains an API for furniture classification using a deep learning CNN model developed in TensorFlow. The API is built using FastAPI framework and Uvicorn server.
 
-**_Image Classification API_** : An API that accepts an image input and returns the predicted label as output. The API is developed using FastAPI framework and Uvicorn server.
+## Model
+The classification_model.ipynb notebook contains the code for developing the CNN model. The model was trained on a provided dataset and saved as a folder called cnn_model under the API project folder.
+
+## API Usage
 To run this API, 
 1) Open the terminal window under this project, and run the command: pip install fastapi uvicorn
 2) The command to run the app is: uvicorn src.main:app 
@@ -13,7 +16,5 @@ To run this API,
 
 
 
-**_Docker_Image.tar_**: available in the shared google folder: https://drive.google.com/file/d/1j0k22Gf8J9oyiz8uW1EuaxBvDg0OqTpP/view?usp=sharing.
-Used Docker Desktop and PowerShell to build it.
-
-**_CI/CD pipeline _**: I am experimenting with a workflow that can build a docker image, but I am not able to finish it for the time being. 
+## Docker Image
+A pre-built Docker image is available for this API in a shared Google folder (https://drive.google.com/file/d/1j0k22Gf8J9oyiz8uW1EuaxBvDg0OqTpP/view?usp=sharing). The Docker image was built using Docker Desktop and PowerShell.
