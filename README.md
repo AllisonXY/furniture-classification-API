@@ -2,7 +2,7 @@
 This repository contains an API for furniture classification using a deep learning CNN model developed in TensorFlow. The API is built using FastAPI framework and Uvicorn server.
 
 ## Model
-The classification_model.ipynb notebook contains the code for developing the CNN model. The model was trained on a provided dataset and saved as a folder called cnn_model under the API project folder.
+The [classification_model.ipynb](https://github.com/AllisonXY/furniture-classification-API/blob/main/classification_model.ipynb) notebook contains the code for developing the CNN model. The model was trained on a provided dataset with 95% validation accuracy, and saved as the [cnn_model](https://github.com/AllisonXY/furniture-classification-API/tree/main/Image%20Classification%20API/cnn_model) folder under the API project.
 
 ## API Usage
 To run this API, 
